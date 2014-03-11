@@ -25,6 +25,7 @@ $(BUILD_DIR)/$(build_tag):
 	       --build=$(BUILD_DIR) \
 	       --devel=$(INSTALL_DIR) \
 	       --merge \
+	       --only-pkg-with-deps={catkin,catkin_simple} \
 	       --cmake-args -DBUILD_SHARED_LIBS=ON \
 	                    -DCMAKE_MODULE_PATH="$(CMAKE_MODULE_PATH)"
 	@cp -r $(abspath catkin_pkg/src/catkin_pkg) $(abspath $(INSTALL_DIR))/lib/python2.7/dist-packages
