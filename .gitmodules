@@ -1,9 +1,9 @@
 [submodule "catkin"]
 	path = catkin
-	url = git@github.com:hiDOF-forks/catkin.git
+	url = https://github.com/hiDOF-forks/catkin.git
 [submodule "catkin_simple"]
 	path = catkin_simple
-	url = git@github.com:hiDOF-forks/catkin_simple.git
+	url = https://github.com/hiDOF-forks/catkin_simple.git
 [submodule "catkin_pkg"]
 	path = catkin_pkg
-	url = git@github.com:hiDOF-forks/catkin_pkg.git
+	url = https://github.com/hiDOF-forks/catkin_pkg.git
