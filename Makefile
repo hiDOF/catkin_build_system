@@ -8,7 +8,7 @@ ifeq ($(INSTALL_DIR),)
 endif
 
 # Whenever package is updated, increment build_tag number to force a rebuild
-build_tag=build_tag_2
+build_tag=build_tag_3
 src=$(abspath .)
 
 .PHONY: all clean
